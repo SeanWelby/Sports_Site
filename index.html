@@ -18,6 +18,11 @@
                 <li><a href="#">News</a></li>
             </ul>
         </nav>
+        <!-- Search Bar -->
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search sports news..." />
+            <button id="search-button">Search</button>
+        </div>
     </header>
 
     <!-- Sidebar -->
@@ -59,5 +64,14 @@
             <p>This is where Section 3 content will go.</p>
         </section>
     </div>
+
+    <script>
+        // Simple search functionality (you can expand this with actual filtering functionality)
+        document.getElementById('search-button').addEventListener('click', function() {
+            const query = document.getElementById('search-input').value;
+            alert('You searched for: ' + query); // Placeholder for actual search logic
+        });
+    </script>
 </body>
 </html>
+
