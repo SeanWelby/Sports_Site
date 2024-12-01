@@ -20,12 +20,7 @@ This repository is organized into three main branches:
 
 2. **Code Branch**  
    - Holds all the frontend and backend code.  
-   - Includes files for website functionality, API integrations, and user interface development.  
-
-3. **Data Branch**  
-   - Contains all data files in `.csv` format and the MySQL database files.  
-   - You can find structured datasets for player stats, standings, and other related information.  
-   - If you want to set up the database locally, SQL files with table creation scripts and seed data are provided here.  
+   - Includes files for website functionality, API integrations, and user interface development.    
 
 ---
 
